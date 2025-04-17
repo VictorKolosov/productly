@@ -86,3 +86,51 @@ header {
     p {}
   }
 }
+
+.tools {
+  margin-top: 110px;
+  text-align: center;
+}
+
+.tools-list {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  margin-bottom: 60px;
+}
+
+.design {
+  margin-top: 120px;
+  display: flex;
+  gap: 104px;
+}
+
+.product {
+  margin-top: 101px;
+  display: flex;
+  gap: 100px;
+}
+
+.marketers {
+  margin-top: 104px;
+  display: flex;
+  gap: 82px;
+}
+
+hr {
+  margin-top: 150px;
+}
+
+footer {
+display: flex;
+}
+
+.links-about-us {
+  display: flex;
+  gap: 27px;
+}
+
+.link-disclaimer {
+  display: flex;
+  gap: 27px;
+}
