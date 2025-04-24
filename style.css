@@ -123,14 +123,46 @@ hr {
 
 footer {
 display: flex;
+width: 1109px;
+height: 150px;
+justify-content: space-between;
+padding-block: 50px;
+margin-bottom: 80px;
+}
+
+nav {
+  display: flex;
+  gap: 135px;
 }
 
 .links-about-us {
   display: flex;
-  gap: 27px;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .link-disclaimer {
   display: flex;
-  gap: 27px;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  input {
+    font-size: 22px;
+    line-height: 35px;
+    width: 325px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid #BCD0E5;
+    margin-bottom: 21px;
+  }
+
+  button {
+    font-weight: 700;
+  }
 }
